@@ -19,7 +19,10 @@ export const Home = () => {
             Criar uma reunião nunca foi tão simples. Com alguns cliques, você
             pode definir datas, horários e convidar participantes.
           </p>
-          <Button title="Criar Meeting" />
+          <div className="flex gap-2">
+            <Button title="Criar Reuniao" />
+            <Button title="Minhas Reunioes" />
+          </div>
         </div>
       </div>
     </div>
