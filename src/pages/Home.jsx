@@ -1,4 +1,5 @@
-import { Button } from '../components/Button'
+import { ArrowRightIcon } from 'lucide-react'
+import { Link } from 'react-router-dom'
 
 export const Home = () => {
   return (
@@ -10,7 +11,7 @@ export const Home = () => {
             <p className="text-base font-semibold  text-lime-200">
               Gerencie sua lista de presença.
             </p>
-            <h1 className="text-5xl font-extrabold text-green-700">
+            <h1 className="text-4xl lg:text-5xl font-extrabold text-green-700">
               Meeting Notes
             </h1>
           </div>
@@ -19,9 +20,14 @@ export const Home = () => {
             Criar uma reunião nunca foi tão simples. Com alguns cliques, você
             pode definir datas, horários e convidar participantes.
           </p>
-          <div className="flex gap-2">
-            <Button title="Criar Reuniao" />
-            <Button title="Minhas Reunioes" />
+          <div className="flex gap-1 font-bold">
+            <Link
+              className=" text-lime-200 hover:text-lime-300"
+              to="/newmeeting"
+            >
+              Criar Meeting
+            </Link>
+            <ArrowRightIcon className="text-lime-200" />
           </div>
         </div>
       </div>
