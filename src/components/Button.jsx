@@ -1,5 +1,3 @@
-
-
 export const Button = ({ title, loading = false, ...rest }) => {
   return (
     <button

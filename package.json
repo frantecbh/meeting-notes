@@ -13,7 +13,8 @@
     "lucide-react": "^0.352.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.20.1"
+    "react-router-dom": "^6.20.1",
+    "sonner": "^1.4.3"
   },
   "devDependencies": {
     "@rocketseat/eslint-config": "^2.2.2",
